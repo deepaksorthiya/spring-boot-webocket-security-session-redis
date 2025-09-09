@@ -1,8 +1,8 @@
 <h1 style="text-align: center;">Spring boot websocket with security and redis based session</h1>
 
 <p style="text-align: center;">
-  <a href="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/workflows/maven-jvm-non-native-build.yml">
-    <img src="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/workflows/maven-jvm-non-native-build.yml/badge.svg" alt="Build Status"/>
+  <a href="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-jvm-non-native-build.yml">
+    <img src="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-jvm-non-native-build.yml/badge.svg" alt="Build Status"/>
   </a>
   <a href="https://hub.docker.com/r/deepaksorthiya/spring-boot-webocket-security-session-redis">
     <img src="https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-webocket-security-session-redis" alt="Docker"/>
