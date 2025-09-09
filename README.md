@@ -2,7 +2,10 @@
 
 <p style="text-align: center;">
   <a href="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-jvm-non-native-build.yml">
-    <img src="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-jvm-non-native-build.yml/badge.svg" alt="Build Status"/>
+    <img src="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-jvm-non-native-build.yml/badge.svg" alt="JVM Maven Build"/>
+  </a>  
+<a href="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-graalvm-native-build.yml">
+    <img src="https://github.com/deepaksorthiya/spring-boot-webocket-security-session-redis/actions/workflows/maven-graalvm-native-build.yml/badge.svg" alt="GraalVM Maven Build"/>
   </a>
   <a href="https://hub.docker.com/r/deepaksorthiya/spring-boot-webocket-security-session-redis">
     <img src="https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-webocket-security-session-redis" alt="Docker"/>
@@ -186,6 +189,7 @@ docker compose down -v
 ---
 
 ### Reference Documentation
+
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
@@ -203,6 +207,7 @@ For further reference, please consider the following sections:
 * [Testcontainers](https://java.testcontainers.org/)
 
 ### Guides
+
 The following guides illustrate how to use some features concretely:
 
 * [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
@@ -217,6 +222,7 @@ The following guides illustrate how to use some features concretely:
 * [Validation](https://spring.io/guides/gs/validating-form-input/)
 
 ### Additional Links
+
 These additional references should also help you:
 
 * [Configure AOT settings in Build Plugin](https://docs.spring.io/spring-boot/3.5.5/how-to/aot.html)
@@ -227,6 +233,7 @@ This project has been configured to let you generate either a lightweight contai
 It is also possible to run your tests in a native image.
 
 ### Lightweight Container with Cloud Native Buildpacks
+
 If you're already familiar with Spring Boot container images support, this is the easiest way to get started.
 Docker should be installed and configured on your machine prior to creating the image.
 
@@ -243,6 +250,7 @@ $ docker run --rm -p 8080:8080 spring-boot-webocket-security-session-redis:0.0.1
 ```
 
 ### Executable with Native Build Tools
+
 Use this option if you want to explore more options such as running your tests in a native image.
 The GraalVM `native-image` compiler should be installed and configured on your machine.
 
@@ -255,6 +263,7 @@ $ ./mvnw native:compile -Pnative
 ```
 
 Then, you can run the app as follows:
+
 ```
 $ target/spring-boot-webocket-security-session-redis
 ```
@@ -268,12 +277,11 @@ To run your existing tests in a native image, run the following goal:
 $ ./mvnw test -PnativeTest
 ```
 
-
 ### Testcontainers support
 
-This project uses [Testcontainers at development time](https://docs.spring.io/spring-boot/3.5.5/reference/features/dev-services.html#features.dev-services.testcontainers).
+This project
+uses [Testcontainers at development time](https://docs.spring.io/spring-boot/3.5.5/reference/features/dev-services.html#features.dev-services.testcontainers).
 
 Testcontainers has been configured to use the following Docker images:
-
 
 Please review the tags of the used images and set them to the same as you're running in production.
