@@ -9,20 +9,20 @@
 name: GraalVM Maven Build
 
 on:
-  push:
-    branches: [ "main" ]
-    paths-ignore:
-      - "README.md"
-      - ".gitignore"
-      - "docs/**"
-      - "images/**"
-      - "k8s/**"
-      - "docker-compose.yml"
-      - "docker/**"
-      - ".dockerignore"
-      - ".gitattributes"
-  pull_request:
-    branches: [ "main" ]
+#  push:
+#    branches: [ "main" ]
+#    paths-ignore:
+#      - "README.md"
+#      - ".gitignore"
+#      - "docs/**"
+#      - "images/**"
+#      - "k8s/**"
+#      - "docker-compose.yml"
+#      - "docker/**"
+#      - ".dockerignore"
+#      - ".gitattributes"
+#  pull_request:
+#    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
